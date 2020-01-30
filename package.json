@@ -1,0 +1,32 @@
+{
+  "name": "09-homework",
+  "version": "1.0.0",
+  "description": "GitHub Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasmcconnell/09-homework.git"
+  },
+  "author": "Nick McConnel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasmcconnell/09-homework/issues"
+  },
+  "homepage": "https://github.com/nicholasmcconnell/09-homework#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "browser": "^0.2.6",
+    "fs": "0.0.1-security",
+    "github-scraper": "^6.8.0",
+    "gs": "0.0.2",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.4",
+    "open": "^7.0.1",
+    "puppeteer": "^2.1.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
