@@ -239,6 +239,7 @@ function generateHTML(dataObject, answers) {
             }
 
             #bottomDiv {
+                margin-top: -40px
                 
             }
     

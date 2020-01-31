@@ -13,5 +13,7 @@ Function control()
 
     4. generateHTML() - takes the data object from makeprofle() and user answers as arguments.  The dataObject conentts are pluged into the html, and the color selection from answers is applied to the style page. The 'html' contents are returned as variable 'html'.
 
-    writeFileAsync - 
+    5. writeFileAsync - creates an html file using the html variable returned from generateHTML();
+
+    6. Finally, pdfMake(), a nested async function, creates a resume.pdf of index.html using the puppeteer npm package. 
 
