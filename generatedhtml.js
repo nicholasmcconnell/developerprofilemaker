@@ -237,6 +237,10 @@ function generateHTML(dataObject, answers) {
 
                 
             }
+
+            #bottomDiv {
+                
+            }
     
             @media print {
                 body {
@@ -270,7 +274,7 @@ function generateHTML(dataObject, answers) {
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
-                    <h3 id="bio">${dataObject.bio}</h3>
+                    <h4 id="bio">${dataObject.bio}</h4>
                 </div>
                 <div class="col-md-3"></div>
             </div>
@@ -317,50 +321,7 @@ function generateHTML(dataObject, answers) {
         </div>
             
     
-        <div class="container">
-            <div class="row end">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <h2>I build things and Teach People Code</h2>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-            <div class="row end">
-                <div class="col-md-4"></div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-text">Public Repositories:</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-text">Followers:</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-            <div class="row end">
-                <div class="col-md-4"></div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <div class="card-body">
-                        </div>
-                        <h3 class="card-text">Github Stars:</h3>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-text">Folowing:</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="class-d-4"></div>
-            </div>
+        <div class="container" id="bottomDiv">
             
         </div>
     

@@ -1,5 +1,5 @@
 const fs = require("fs");
-const axios = require("axios");
+//const axios = require("axios");
 const inquirer = require("inquirer");
 const gs = require('github-scraper');
 const util = require("util");
