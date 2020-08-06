@@ -21,7 +21,7 @@ This command-line application will allow for quick and easy generation of develo
 
 ## Demo
 
-![Developer Profile Generator](./img/dev-gen-demo.gif "Developer Profile Generator")
+![Developer Profile Generator](./09-homework.gif "Developer Profile Generator")
 
 ## Tech used
 
