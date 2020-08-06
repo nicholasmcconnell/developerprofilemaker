@@ -70,6 +70,9 @@ async function control() {
 function gsQuery(answers){
     return new Promise(resolve => {
         gs(`/${answers.username}`, function(err, data) {
+          if(err){
+            return reject(err);
+          }
             resolve(data);
         })
     })
