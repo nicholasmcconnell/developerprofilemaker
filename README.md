@@ -1,19 +1,37 @@
-# 09-homework
-Lines 1 - 10
-    These are the required npm pacakges and doc's index.js's code utilizes.
+# Developer Profile Generator
+A CLI application that creates a PDF of a user's GitHub profile stats.
 
-Function control()
-    This is an async funcgion that uses controls the order in which functions are called.
+## Overview
 
-    1. promtUser() - retrieves github user name and color choice from user.
+This application is a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:
 
-    2. gsQuery() - takes user answers as and argument and returns the data from gs(github scrapper) via making it a new promise.
+```sh
+node index.js
+```
 
-    3. builder.makeprofile() - takes the data returned from gsQuery() as an argument and creates an object of the data needed for the profile.
+This command-line application will allow for quick and easy generation of developer profiles in PDF format.
 
-    4. generateHTML() - takes the data object from makeprofle() and user answers as arguments.  The dataObject conentts are pluged into the html, and the color selection from answers is applied to the style page. The 'html' contents are returned as variable 'html'.
+## Utilizing the App
 
-    5. writeFileAsync - creates an html file using the html variable returned from generateHTML();
+- The user will open the `index.js` file in their terminal and run the command `npm i`, then run the command `node index.js`.
 
-    6. Finally, pdfMake(), a nested async function, creates a resume.pdf of index.html using the puppeteer npm package. 
+- The user will be prompted for their GitHub username and a favorite color, which will be used as the color for their PDF.
 
+- The PDF will be populated with the following: the users profile image & name, links to location via Google Maps, GitHub profile & user blog along with the user's GitHub page content such as: bio, number of public repositories, number of followers, number of GitHub stars, and number of users following.
+
+## Demo
+
+![Developer Profile Generator](./img/dev-gen-demo.gif "Developer Profile Generator")
+
+## Tech used
+
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- Node.js
+- NPM - _inquirer, axios, pupeteer, github-scraper
+
+## Contributers
+
+- Nick McConnell
