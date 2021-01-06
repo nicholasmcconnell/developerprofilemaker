@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/nicholasmcconnell/09-homework#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "browser": "^0.2.6",
     "fs": "0.0.1-security",
     "github-scraper": "^6.8.0",
