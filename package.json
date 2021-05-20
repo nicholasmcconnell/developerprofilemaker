@@ -22,7 +22,7 @@
     "fs": "0.0.1-security",
     "github-scraper": "^6.8.0",
     "gs": "0.0.2",
-    "html-pdf": "^2.2.0",
+    "html-pdf": "^3.0.1",
     "inquirer": "^7.0.4",
     "open": "^7.0.1",
     "puppeteer": "^2.1.0"
